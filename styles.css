@@ -109,3 +109,22 @@ ul li.checked::before {
     background-image: url(images/icons8-checked-50.png);
     filter: invert(11%) sepia(82%) saturate(2972%) hue-rotate(288deg) brightness(65%) contrast(127%);
 }
+
+ul li span {
+    position: absolute;
+    color: var(--blue);
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    font-size: 22px;
+    line-height: 36px;
+    top: 5px;
+    right: 0;
+    border-radius: 30%;
+}
+
+ul li span:hover {
+    background-color: var(--light-grey);
+    transition: all .8s ease-in-out;
+    -webkit-transition: all .8s ease-in-out;
+}
