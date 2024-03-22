@@ -6,6 +6,14 @@
     font-family: 'Roboto', sans-serif;
 }
 
+:root {
+    --white: #FFF5EA;
+    --light-grey: #E5E4E2;
+    --purple: #360033;
+    --black: #282828;
+    --grey: #708090;
+}
+
 .container {
     min-height: 100vh;
     width: 100%;
@@ -15,7 +23,7 @@
 }
 
 .app {
-    background: #FFF5EA;
+    background: var(--white);
     border-radius: 10px;
     width: 100%;
     max-width: 540px;
@@ -28,13 +36,13 @@
     align-items: center;
     margin-bottom: 20px;
     font-size: 30px;
-    color: #360033;
+    color: var(--purple);
     letter-spacing: 1px;
 }
 
 /* Input Field */
 .row {
-    background-color: #E5E4E2;
+    background-color: var(--light-grey);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -54,7 +62,7 @@ input {
 }
 
 ::placeholder {
-    color: #708090;
+    color: var(--grey);
 }
 
 button {
@@ -62,8 +70,8 @@ button {
     outline: none;
     border: none;
     border-radius: 30px;
-    background-color: #360033;
-    color: #FFF5EA;
+    background-color: var(--purple);
+    color: var(--white);
     padding: 16px 50px;
     font-size: 16px;
 }
@@ -75,7 +83,7 @@ ul li {
     user-select: none;
     padding: 12px 8px 12px 65px;
     position: relative;
-    color: #282828;
+    color: var(--black);
 }
 
 ul li::before {
@@ -93,7 +101,7 @@ ul li::before {
 
 ul li.checked {
     text-decoration: line-through;
-    color: #708090;
+    color: var(--grey);
 }
 
 ul li.checked::before {
