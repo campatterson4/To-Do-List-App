@@ -67,3 +67,31 @@ button {
     padding: 16px 50px;
     font-size: 16px;
 }
+
+/* Tasks */
+ul li {
+    list-style-type: none;
+    cursor: pointer;
+    user-select: none;
+    padding: 12px 8px 12px 65px;
+    position: relative;
+    color: #282828;
+}
+
+ul li::before {
+    content: '';
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    background-image: url(images/icons8-unchecked-50.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    left: 8px;
+    top: -3px;
+}
+
+ul li.checked {
+    text-decoration: line-through;
+    color: #708090;
+}
