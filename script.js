@@ -11,4 +11,5 @@ function addItem() {
         li.innerHTML = textBox.value;
         listContainer.appendChild(li);
     }
+    textBox.value = "";
 }
