@@ -1,3 +1,4 @@
+/* GLOBAL */
 * {
     margin: 0;
     padding: 0;
@@ -22,3 +23,19 @@
     margin: 100px auto 20px;
 }
 
+.app h2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Input Field */
+.row {
+    background-color: #E5E4E2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
