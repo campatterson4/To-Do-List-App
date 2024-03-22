@@ -39,6 +39,7 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 25px;
+    margin-top: 25px;
     padding-left: 20px;
     border-radius: 20px;
 }
@@ -54,4 +55,15 @@ input {
 
 ::placeholder {
     color: #708090;
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    background-color: #360033;
+    color: #FFF5EA;
+    padding: 16px 50px;
+    font-size: 16px;
 }
