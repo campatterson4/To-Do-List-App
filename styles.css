@@ -4,3 +4,9 @@
     box-sizing: border-box;
     font-family: 'Roboto';
 }
+
+.container {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #89a3e7, #79abea, #6ab2eb, #54b9ea, #41bfe6, #36c4df, #38c9d5);
+}
