@@ -125,6 +125,6 @@ ul li span {
 
 ul li span:hover {
     background-color: var(--light-grey);
-    transition: all .8s ease-in-out;
-    -webkit-transition: all .8s ease-in-out;
+    transition: all .6s ease-in-out;
+    -webkit-transition: all .6s ease-in-out;
 }
