@@ -49,4 +49,9 @@ input {
     outline: none;
     flex: 1;
     padding: 10px;
+
+}
+
+::placeholder {
+    color: #708090;
 }
