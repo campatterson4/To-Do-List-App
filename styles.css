@@ -12,6 +12,7 @@
     --purple: #360033;
     --black: #282828;
     --grey: #708090;
+    --blue: #0A2342;
 }
 
 .container {
@@ -36,7 +37,7 @@
     align-items: center;
     margin-bottom: 20px;
     font-size: 30px;
-    color: var(--purple);
+    color: var(--blue);
     letter-spacing: 1px;
 }
 
