@@ -95,3 +95,8 @@ ul li.checked {
     text-decoration: line-through;
     color: #708090;
 }
+
+ul li.checked::before {
+    background-image: url(images/icons8-checked-50.png);
+    filter: invert(11%) sepia(82%) saturate(2972%) hue-rotate(288deg) brightness(65%) contrast(127%);
+}
