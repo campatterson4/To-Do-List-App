@@ -2,11 +2,23 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #89a3e7, #79abea, #6ab2eb, #54b9ea, #41bfe6, #36c4df, #38c9d5);
+    padding: 10px;
+    background-image: linear-gradient(to right, #d3cce3, #e9e4f0); 
+
 }
+
+.app {
+    background: #FFF5EA;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 540px;
+    padding: 40px 30px 70px;
+    margin: 100px auto 20px;
+}
+
